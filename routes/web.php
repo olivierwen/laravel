@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/tasks/{id?}', function($id = null) {
+   return view('tasks')->with('param', $id);
+});

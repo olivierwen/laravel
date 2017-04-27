@@ -14,7 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+/*
 Route::get('/tasks/{id?}', function($id = null) {
    return view('tasks')->with('param', $id);
 });
+*/
+
+Route::resource('tasks', 'TasksController');
+Route::get('/', 'TasksController@index');
+/*
+Route::get('tasks', 'TasksController@index');
+Route::get('tasks/{id}', 'TasksController@show')->name('tasks.show');*/

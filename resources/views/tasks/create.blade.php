@@ -4,7 +4,7 @@
     {{ csrf_field() }}
     <div  class="form-group">
         <label for="name">Tâche : </label>
-        <input type="text" id="name" name="name" class="form-control" placeholder="Task name" />
+        <input type="text" id="name" name="name" class="form-control" placeholder="Task name" value="{{ old('name')}}"/>
         <button type="submit" class="btn btn-primary" >Créer tâche</button>
     </div>
 </form>

@@ -31,7 +31,10 @@ class TaskStoreRequest extends FormRequest
     public function messages()
     {
         return [
-            'name.required' => 'Un nom est requis (4-255 caractères)',  
+            'name.required' => 'Un nom est requis (4-255 caractères)',
+            'name.alpha_num' => 'Seuls les caractères alphanumériques sont autorisés',
+            'name.min' => 'min. 4 caractères',
+            'name.max' => 'max. 255 caractères',
         ];
     }
 }

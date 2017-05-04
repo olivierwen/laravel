@@ -42,7 +42,12 @@
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize"
-        ]
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize",
+            "php artisan migrate --force"
+        ],
     },
     "config": {
         "preferred-install": "dist",

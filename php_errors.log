@@ -73,3 +73,15 @@
 [04-May-2017 18:14:57 UTC] PHP Notice:  Undefined index: host in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 72
 [04-May-2017 18:14:57 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 74
 [04-May-2017 18:14:57 UTC] PHP Notice:  Undefined index: pass in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 75
+[04-May-2017 18:21:24 UTC] PHP Notice:  Undefined index: host in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 72
+[04-May-2017 18:21:24 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 74
+[04-May-2017 18:21:24 UTC] PHP Notice:  Undefined index: pass in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 75
+[04-May-2017 18:21:27 UTC] PHP Notice:  Undefined index: host in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 72
+[04-May-2017 18:21:27 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 74
+[04-May-2017 18:21:27 UTC] PHP Notice:  Undefined index: pass in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 75
+[04-May-2017 18:21:31 UTC] PHP Notice:  Undefined index: host in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 72
+[04-May-2017 18:21:31 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 74
+[04-May-2017 18:21:31 UTC] PHP Notice:  Undefined index: pass in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 75
+[04-May-2017 18:21:31 UTC] PHP Notice:  Undefined index: host in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 72
+[04-May-2017 18:21:31 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 74
+[04-May-2017 18:21:31 UTC] PHP Notice:  Undefined index: pass in /home/ubuntu/workspace/laravel-todomvc/config/database.php on line 75

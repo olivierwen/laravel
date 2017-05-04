@@ -1,11 +1,11 @@
 @extends('layout')
+
 @section('content')
-<table>
-    <tr>
-        <td>Id</td><td>Name</td><td>Duration</td>
-    </tr>
-    <tr>
-        <td>{{ $task['id'] }}</td><td>{{ $task['name'] }}</td><td> {{ $task['duration'] }}</td>
-    </tr>
-</table>
+    <h2>Task #{{ $task->id }}</h2>
+    
+    <ul>
+        <li>Name : {{ $task->name }}</li>
+    </ul>
+    
+    <a href="{{ route('tasks.index') }}" class="btn btn-default">Back</a>
 @endsection
